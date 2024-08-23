@@ -1,0 +1,39 @@
+{
+    "id": "",
+    "category": "",
+    "title": "",
+    "artist": "",
+    "physicalDescription": "",
+    "collection": [
+      {
+        "id": "",
+        "title": "",
+        "artist": ""
+      }
+    ],
+    "spacial": [
+      {
+        "id": "",
+        "title": "",
+        "geo": ""
+      }
+    ],
+    "temporal": [
+      {
+        "type": "",
+        "year": "",
+        "date": ""
+      }
+    ],
+    "meta": [
+      {
+        "fileName": "",
+        "model": "",
+        "lens": "",
+        "focalLength": "",
+        "aperture": "",
+        "shutterSpeed": "",
+        "iso": ""
+      }
+    ]
+  }
