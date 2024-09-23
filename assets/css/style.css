@@ -1,28 +1,202 @@
 /* @import */
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* Variable Storage */
 :root {
+    --hb-graybrown: #5d5c55;
+    --hb-darkblue: #212b3a;
+    --hb-lightblue: #a8c7e3;
     
+    --hb-boxshadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.25);
 }
 
 /* Root Definitions */
 body {
+    font-family: "Josefin Sans", sans-serif;
 
+    font-size: 12px;
+
+    background-color: var(--hb-darkblue);
 }
 
 h1 {
-
+    font-size: 4em;
 }
 
 h2 {
-
+    font-size: 1.5em;
 }
 
 h3 {
-
+    font-size: 2em;
 }
 
 p {
 
+}
+
+
+.hidden {
+    display: none;
+}
+
+.invis {
+    opacity: 0;
+}
+
+
+/*        */
+/* Header */
+/*        */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* persistent pontent */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+
+    color: rgba(0, 0, 0, 0);
+
+    padding: 2em;
+}
+
+.menu-button {
+    color: white;
+    font-size: 3em;
+    align-content: center;
+    margin-right: 0.5em;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+/* small header - no hero */
+.bar-head {
+    background-color: var(--hb-graybrown);
+}
+
+.bar-head i {
+    color: var(--hb-lightblue);
+}
+
+.logo {
+    background-image: url(../img/Asset\ 2.svg);
+    background-repeat: no-repeat;
+}
+
+/* removes other large header content when small header */
+.bar-head > .hero-content, .hero-action {
+    display: none;
+}
+
+/* large header - with hero */
+.hero-head {
+    height: 100dvh;
+    
+    /* background-image: url("/assets/img/LachieProject-14.jpg"); */
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("/assets/img/LachieProject-14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    box-shadow: var(--hb-boxshadow);
+}
+
+.hero-head > .navbar h1 {
+    opacity: 0;
+}
+
+.hero-head > .navbar i {
+    color: var(--hb-darkblue);
+}
+
+.hero-head > .hero-content {
+    width: 45%;
+    padding-left: 5%;
+}
+
+.hero-head > .hero-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3em;
+
+    color: var(--hb-lightblue);
+}
+
+.hero-head > .hero-action i {
+    font-size: 1.5em;
+    padding: 0em 0.5em 0.2em 0.5em;
+
+    color: var(--hb-lightblue);
+}
+
+/*             */
+/* Body - Home */
+/*             */
+
+.body-fill {
+    height: 200dvh;
+}
+
+
+/*        */
+/* Footer */
+/*        */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--hb-graybrown);
+    color: var(--hb-lightblue);
+
+    padding: 3em 7em 3em 2em;
+
+    box-shadow: var(--hb-boxshadow);
+}
+
+.foot-img {
+    width: 20%;
+}
+
+.foot-content {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 2em;
+}
+
+.foot-rights {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.foot-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-social > h3 {
+    width: 3em;
 }
