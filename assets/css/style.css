@@ -171,9 +171,77 @@ header {
 /* Body - Home */
 /*             */
 
-.body-fill {
+.body-home {
+    
+}
+
+.home-about {
+    display: flex;
+
+    min-height: 20dvh;
+
+    padding: 8em;
+
+    font-weight: 600;
+    color: var(--hb-offwhite);
+}
+
+.home-portrait {
+    width: 45%;
+    padding-right: 5em;
+}
+
+.home-bio {
+    padding: 3em;
+}
+
+.home-bio h1 {
+    font-size: 3.5em;
+}
+
+.home-bio h2 {
+    color: var(--hb-lightblue);
+
+    padding-top: 0.5em;
+}
+
+.home-bio p {
+    font-size: 1.4em;
+    font-weight: 400;
+
+    line-height: 1.3em;
+
+    padding: 2em 0em;
+}
+
+.home-gallery {
+    display: grid;
+    /* width: 100dvw; */
+
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    row-gap: 2em;
+    column-gap: 2em;
+
+    object-fit: contain;
+
+    padding: 3em;
+
+    background-color: var(--hb-gray);
+    color: var(--hb-lightblue);
+    
+    box-shadow: var(--hb-boxshadow);
+}
+
+.home-gallery img {
+    max-width: 100%;
+}
+
+.home-portfolio {
     min-height: 20dvh;
 }
+
 
 
 /*        */
