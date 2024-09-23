@@ -3,9 +3,13 @@
 
 /* Variable Storage */
 :root {
-    --hb-graybrown: #5d5c55;
+    --hb-gray: #515151;
     --hb-darkblue: #212b3a;
     --hb-lightblue: #a8c7e3;
+    --hb-offwhite: #e3ebee;
+
+    /* --test-satellitecolour: #212b3a; */
+    --test-satellitecolour: #e3ebee;
     
     --hb-boxshadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.25);
 }
@@ -79,7 +83,7 @@ header {
 
 /* small header - no hero */
 .bar-head {
-    background-color: var(--hb-graybrown);
+    background-color: var(--hb-gray);
 }
 
 .bar-head i {
@@ -100,12 +104,11 @@ header {
 .hero-head {
     height: 100dvh;
     
-    /* background-image: url("/assets/img/LachieProject-14.jpg"); */
-    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("../img/LachieProject-14.jpg");
+    /* background-image: url("../img/LachieProject-14.jpg"); */
+    background-image: url("../img/LachieProject-37.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(255, 255, 255, 0.1);
 
     box-shadow: var(--hb-boxshadow);
 }
@@ -115,12 +118,36 @@ header {
 }
 
 .hero-head > .navbar i {
-    color: var(--hb-darkblue);
+    color: var(--test-satellitecolour);
+}
+
+.hero-head > .hero-content img {
+    width: 15em;
+    padding-left: 5%;
 }
 
 .hero-head > .hero-content {
-    width: 45%;
-    padding-left: 5%;
+    display: flex;
+
+    color: var(--hb-offwhite);
+
+    align-items: center;
+}
+
+.hero-head > .hero-content .logo-text {
+    padding-left: 3em;
+}
+
+.hero-head > .hero-content .logo-text h2 {
+    font-size: 7em;
+    font-weight: 700;
+}
+
+.hero-head > .hero-content .logo-text h2:last-child {
+    font-size: 4em;
+    letter-spacing: 0.2em;
+
+    color: var(--hb-lightblue);
 }
 
 .hero-head > .hero-action {
@@ -130,14 +157,14 @@ header {
 
     padding: 3em;
 
-    color: var(--hb-lightblue);
+    color: var(--test-satellitecolour);
 }
 
 .hero-head > .hero-action i {
     font-size: 1.5em;
     padding: 0em 0.5em 0.2em 0.5em;
 
-    color: var(--hb-lightblue);
+    color: var(--test-satellitecolour);
 }
 
 /*             */
@@ -145,7 +172,7 @@ header {
 /*             */
 
 .body-fill {
-    height: 200dvh;
+    min-height: 20dvh;
 }
 
 
@@ -157,7 +184,7 @@ footer {
     display: flex;
     justify-content: space-between;
 
-    background-color: var(--hb-graybrown);
+    background-color: var(--hb-gray);
     color: var(--hb-lightblue);
 
     padding: 3em 7em 3em 2em;
