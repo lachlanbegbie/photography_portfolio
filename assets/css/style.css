@@ -12,6 +12,8 @@
     --test-satellitecolour: #e3ebee;
     
     --hb-boxshadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.25);
+
+    --photo-number: 01;
 }
 
 /* Root Definitions */
@@ -297,8 +299,6 @@ footer {
     row-gap: 2em;
     column-gap: 2em;
 
-    object-fit: contain;
-
     padding: 3em;
 
     background-color: var(--hb-gray);
@@ -309,6 +309,8 @@ footer {
 
 .home-gallery img {
     max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 4;
 }
 
 .home-portfolio {
@@ -353,4 +355,116 @@ footer {
 
 .home-portfolio .buttons h6 {
     margin-top: 3em;
+}
+
+
+/*                 */
+/* Secondary Pages */
+/*                 */
+.secondary {
+    padding: 6em;
+
+    color: var(--hb-lightblue);
+
+    /* text-align: center; */
+}
+
+.secondary h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.portfolio-coll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collections-container {
+    margin: 5em 0em 0em 0em;
+}
+
+.collection-item {
+    display: flex;
+    max-width: 90em;
+
+    background-color: var(--hb-gray);
+
+    margin-bottom: 5em;
+}
+
+.collection-item:last-of-type {
+    margin-bottom: 0em;
+}
+
+.collection-cover {
+    /* background-image: url(/assets/img/heroimg-37.jpg); */
+    background-size: cover;
+    background-position: center;
+
+    width: 50%;
+}
+
+.arch {
+    background-image: url(/assets/img/images/LachieProject-34.jpg);
+}
+
+.abst {
+    background-image: url(/assets/img/images/LachieProject-01.jpg);
+}
+
+.natu {
+    background-image: url(/assets/img/images/LachieProject-19.jpg);
+}
+
+.wild {
+    background-image: url(/assets/img/images/LachieProject-33.jpg);
+}
+
+.padd {
+    background-image: url(/assets/img/images/LachieProject-06.jpg);
+}
+
+.mill {
+    background-image: url(/assets/img/images/LachieProject-11.jpg);
+}
+
+.land {
+    background-image: url(/assets/img/images/LachieProject-13.jpg);
+}
+
+.collection-details {
+    padding: 4em;
+    width: 50%;
+
+    color: var(--hb-offwhite);
+}
+
+.collection-details h2 {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.collection-details p {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.8em;
+
+    margin: 1.5em 0em;
+    text-align: justify;
+}
+
+.collection-details .coll-button h6 {
+    background-color: var(--hb-offwhite);
+    color: var(--hb-gray);
+
+    font-size: 1.5em;
+    font-weight: 500;
+
+    padding: 1em 1em 0.8em 1em;
+    border-radius: 1em;
+
+    width: fit-content;
 }
