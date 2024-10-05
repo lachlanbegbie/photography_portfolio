@@ -408,31 +408,31 @@ footer {
 }
 
 .arch {
-    background-image: url(/assets/img/images/LachieProject-34.jpg);
+    background-image: url("../img/images/LachieProject-34.jpg");
 }
 
 .abst {
-    background-image: url(/assets/img/images/LachieProject-01.jpg);
+    background-image: url("../img/images/LachieProject-01.jpg");
 }
 
 .natu {
-    background-image: url(/assets/img/images/LachieProject-19.jpg);
+    background-image: url("../img/images/LachieProject-19.jpg");
 }
 
 .wild {
-    background-image: url(/assets/img/images/LachieProject-33.jpg);
+    background-image: url("../img/images/LachieProject-33.jpg");
 }
 
 .padd {
-    background-image: url(/assets/img/images/LachieProject-06.jpg);
+    background-image: url("../img/images/LachieProject-06.jpg");
 }
 
 .mill {
-    background-image: url(/assets/img/images/LachieProject-11.jpg);
+    background-image: url("../img/images/LachieProject-11.jpg");
 }
 
 .land {
-    background-image: url(/assets/img/images/LachieProject-13.jpg);
+    background-image: url("../img/images/LachieProject-13.jpg");
 }
 
 .collection-details {
