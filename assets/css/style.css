@@ -12,8 +12,6 @@
     --test-satellitecolour: #e3ebee;
     
     --hb-boxshadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.25);
-
-    --photo-number: 01;
 }
 
 /* Root Definitions */
@@ -70,7 +68,7 @@ header {
     justify-content: space-between;
 }
 
-/* persistent pontent */
+/* persistent content */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -234,6 +232,59 @@ footer {
     font-size: 2.5em;
 }
 
+/*            */
+/* Persistent */
+/*            */
+
+.contact-section {
+    height: 50em;
+    width: 100dvw;
+
+    background-image: url(../img/images/LachieProject-31.jpg);
+    background-size: cover;
+
+    margin-bottom: 0em;
+
+    color: var(--hb-offwhite);
+
+    box-shadow: var(--hb-boxshadow);
+}
+
+.contact-section-inner {
+    height: 50em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-actions {
+    display: flex;
+}
+
+.contact-section h2 {
+    font-size: 4em;
+    font-weight: 700;
+
+    padding: 1em;
+}
+
+.contact-section .coll-button h6 {
+    background-color: var(--hb-offwhite);
+    color: var(--hb-gray);
+
+    font-size: 1.5em;
+    font-weight: 500;
+
+    padding: 1em 1em 0.8em 1em;
+    border-radius: 1em;
+
+    width: fit-content;
+}
+
 
 
 /*             */
@@ -395,10 +446,6 @@ footer {
     margin-bottom: 5em;
 }
 
-.collection-item:last-of-type {
-    margin-bottom: 0em;
-}
-
 .collection-cover {
     /* background-image: url(/assets/img/heroimg-37.jpg); */
     background-size: cover;
@@ -467,4 +514,16 @@ footer {
     border-radius: 1em;
 
     width: fit-content;
+}
+
+/*      */
+/* Blog */
+/*      */
+
+.blog {
+
+}
+
+.blog-container {
+    
 }
