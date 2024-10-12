@@ -8,12 +8,13 @@
     --hb-lightblue: #a8c7e3;
     --hb-offwhite: #e3ebee;
 
+    --grad-back: linear-gradient(rgba(33,43,58,0) 0%, rgba(33,43,58,1) 90%, rgba(33,43,58,1) 100%);
+
     /* --test-satellitecolour: #212b3a; */
     --test-satellitecolour: #e3ebee;
     
     --hb-boxshadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.25);
-
-    --photo-number: 01;
+    --hb-smallshadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
 /* Root Definitions */
@@ -23,6 +24,8 @@ body {
     font-size: 12px;
 
     background-color: var(--hb-darkblue);
+
+    image-resolution: from-image 50dpi;
 }
 
 h1 {
@@ -68,9 +71,31 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    box-shadow: var(--hb-boxshadow);
+
+    z-index: 100;
 }
 
-/* persistent pontent */
+/*                    */
+/* persistent content */
+/*                    */
+
+.single {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frame-image {
+    width: 40em;
+    height: 30em;
+    object-fit: cover;
+
+    padding-right: 3em;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -193,6 +218,8 @@ footer {
     padding: 3em 7em 3em 2em;
 
     box-shadow: var(--hb-boxshadow);
+
+    z-index: 100;
 }
 
 .foot-img {
@@ -234,15 +261,81 @@ footer {
     font-size: 2.5em;
 }
 
+.foot-social > i:hover {
+    cursor: pointer;
+}
+
+/*            */
+/* Persistent */
+/*            */
+
+.contact-section {
+    height: 50em;
+    width: 100dvw;
+
+    background-image: url(../img/images/LachieProject-31.jpg);
+    background-size: cover;
+
+    margin-bottom: 0em;
+
+    color: var(--hb-offwhite);
+
+    box-shadow: var(--hb-boxshadow);
+}
+
+.contact-section-inner {
+    height: 50em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-actions {
+    display: flex;
+    align-items: center;
+}
+
+.contact-section h2 {
+    font-size: 4em;
+    font-weight: 700;
+
+    padding: 1em;
+
+    color: var(--hb-lightblue);
+}
+
+.contact-section .coll-button h6 {
+    background-color: var(--hb-offwhite);
+    color: var(--hb-gray);
+
+    font-size: 1.5em;
+    font-weight: 500;
+
+    padding: 1em 1em 0.8em 1em;
+    border-radius: 1em;
+
+    width: fit-content;
+}
+
+.contact-social {
+    font-size: 2.5em;
+    padding-left: 1em;
+}
+
+.contact-social i {
+    padding-right: 0.5em;
+    color: var(--hb-lightblue);
+}
+
 
 
 /*             */
 /* Body - Home */
 /*             */
-
-.body-home {
-    
-}
 
 .home-about {
     display: flex;
@@ -393,10 +486,12 @@ footer {
     background-color: var(--hb-gray);
 
     margin-bottom: 5em;
+
+    box-shadow: var(--hb-smallshadow);
 }
 
-.collection-item:last-of-type {
-    margin-bottom: 0em;
+.collection-item:hover {
+    cursor: pointer;
 }
 
 .collection-cover {
@@ -467,4 +562,38 @@ footer {
     border-radius: 1em;
 
     width: fit-content;
+}
+
+/*      */
+/* Blog */
+/*      */
+
+.blog {
+
+}
+
+.blog-container {
+    
+}
+
+/*       */
+/* About */
+/*       */
+
+.about-body {
+    display: flex;
+
+    justify-content: center;
+}
+
+.body-about h1 {
+    margin-bottom: 1.5em;
+}
+
+.body-about p {
+    
+}
+
+.about-content {
+    width: 40%;
 }
