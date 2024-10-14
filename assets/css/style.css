@@ -73,20 +73,12 @@ header {
     justify-content: space-between;
 
     box-shadow: var(--hb-boxshadow);
-
-    z-index: 100;
+    z-index: 1000;
 }
 
 /*                    */
 /* persistent content */
 /*                    */
-
-.single {
-    min-height: 100dvh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .frame-image {
     width: 40em;
@@ -219,7 +211,7 @@ footer {
 
     box-shadow: var(--hb-boxshadow);
 
-    z-index: 100;
+    z-index: 1000;
 }
 
 .foot-img {
@@ -455,7 +447,7 @@ footer {
 /* Secondary Pages */
 /*                 */
 .secondary {
-    padding: 6em;
+    /* padding: 6em; */
 
     color: var(--hb-lightblue);
 
@@ -580,20 +572,109 @@ footer {
 /* About */
 /*       */
 
-.about-body {
+.body-about {
+    background-image: url(../img/pexels-samforson-154243.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scaleX(-1);
+
+    color: var(--hb-offwhite);
+
+    z-index: 0;
+}
+
+.about-top {
     display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
 
-    justify-content: center;
+    padding: 6em;
+    /* height: 100dvh; */
+
+    transform: scaleX(-1);
+
+    background: linear-gradient(90deg, rgba(33,43,58,0.8) 0%, rgba(33,43,58,0.8) 20%, rgba(33,43,58,0) 70%);
+
 }
 
-.body-about h1 {
-    margin-bottom: 1.5em;
-}
-
-.body-about p {
+.about-top h1 {
+    font-size: 5em;
+    font-weight: 700;
     
+    padding: 0.5em 0em;
 }
 
-.about-content {
+.about-top h2 {
+    font-size: 2.5em;
+}
+
+.about-top p {
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.5;
+
+    text-align: left;
+
     width: 40%;
+
+    padding: 1.2em 0em;
+}
+
+.about-top p:last-of-type {
+    padding-top: 0em;
+}
+
+.about-top .buttons {
+    align-self: end;
+}
+
+.about-gear {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transform: scaleX(-1);
+
+    background-color: var(--hb-darkblue);
+}
+
+.gear-item {
+    padding: 5em;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gear-item h1 {
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+.gear-item p {
+    font-size: 1.5em;
+    font-weight: 300;
+
+    line-height: 1.2;
+}
+
+.gear-item h2 {
+    padding-top: 1em;
+}
+
+.gear-item ul {
+    list-style: "\1F4F7";
+    line-height: 1.8;
+    padding-top: 1em;
+}
+
+.gear-item ul li {
+    font-size: 1.3em;
+}
+
+.gear-item ul li span {
+    padding-left: 0.5em;
 }
