@@ -25,7 +25,7 @@ body {
 
     background-color: var(--hb-darkblue);
 
-    image-resolution: from-image 50dpi;
+    image-resolution: 10dpi;
 }
 
 h1 {
@@ -342,7 +342,9 @@ footer {
 
 .home-portrait {
     width: 45%;
-    padding-right: 5em;
+    padding-left: 5em;
+
+    transform: scaleX(-1);
 
     object-fit: cover;
 }
@@ -455,6 +457,8 @@ footer {
 }
 
 .secondary h1 {
+    padding-top: 2em;
+
     font-size: 3.5em;
     font-weight: 600;
 
@@ -651,6 +655,7 @@ footer {
 
 .gear-item h1 {
     font-size: 3em;
+    padding-top: 0;
     padding-bottom: 0.5em;
 }
 
