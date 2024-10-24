@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "address": "LachieProject-1.jpg",
+    "address": "LachieProject-01.jpg",
     "title": "Steps",
     "collection": "Abstraction",
     "location": "Paddington, NSW",
@@ -9,7 +9,7 @@
   },
   {
     "id": "02",
-    "address": "LachieProject-2.jpg",
+    "address": "LachieProject-02.jpg",
     "title": "No Smoking",
     "collection": "Abstraction",
     "location": "Paddington, NSW",
@@ -17,7 +17,7 @@
   },
   {
     "id": "03",
-    "address": "LachieProject-3.jpg",
+    "address": "LachieProject-03.jpg",
     "title": "Alleyway",
     "collection": "Paddington",
     "location": "Paddington, NSW",
@@ -25,7 +25,7 @@
   },
   {
     "id": "04",
-    "address": "LachieProject-4.jpg",
+    "address": "LachieProject-04.jpg",
     "title": "The Red Door",
     "collection": "Paddington",
     "location": "Paddington, NSW",
@@ -33,7 +33,7 @@
   },
   {
     "id": "05",
-    "address": "LachieProject-5.jpg",
+    "address": "LachieProject-05.jpg",
     "title": "The Red Door, Greyscale",
     "collection": "Paddington",
     "location": "Paddington, NSW",
@@ -41,7 +41,7 @@
   },
   {
     "id": "06",
-    "address": "LachieProject-6.jpg",
+    "address": "LachieProject-06.jpg",
     "title": "Facades",
     "collection": "Paddington",
     "location": "Paddington, NSW",
@@ -49,7 +49,7 @@
   },
   {
     "id": "07",
-    "address": "LachieProject-7.jpg",
+    "address": "LachieProject-07.jpg",
     "title": "Around the Corner, Greyscale",
     "collection": "Paddington",
     "location": "Paddington, NSW",
@@ -57,7 +57,7 @@
   },
   {
     "id": "08",
-    "address": "LachieProject-8.jpg",
+    "address": "LachieProject-08.jpg",
     "title": "Around the Corner",
     "collection": "Paddington",
     "location": "Paddington, NSW",
@@ -65,14 +65,14 @@
   },
   {
     "id": "09",
-    "address": "LachieProject-9.jpg",
+    "address": "LachieProject-09.jpg",
     "title": "Industrial Sails",
     "collection": "Abstraction",
     "location": "Paddington, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 10,
+    "id": "10",
     "address": "LachieProject-10.jpg",
     "title": "Slats",
     "collection": "Abstraction",
@@ -80,7 +80,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 11,
+    "id": "11",
     "address": "LachieProject-11.jpg",
     "title": "Canobolas from Millthorpe",
     "collection": "Millthorpe",
@@ -88,7 +88,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 12,
+    "id": "12",
     "address": "LachieProject-12.jpg",
     "title": "St Mark's, Millthorpe",
     "collection": "Millthorpe",
@@ -96,39 +96,39 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 13,
+    "id": "13",
     "address": "LachieProject-13.jpg",
     "title": "Kensington Thumbnail",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Kensington, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 14,
+    "id": "14",
     "address": "LachieProject-14.jpg",
     "title": "Burralow Morning Mists",
-    "collection": "Landscape",
+    "collection": "Landscapess",
     "location": "Burralow Creek Campground, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 15,
+    "id": "15",
     "address": "LachieProject-15.jpg",
     "title": "Rock Pools",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Maroubra, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 16,
+    "id": "16",
     "address": "LachieProject-16.jpg",
     "title": "Verandah",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Millthorpe, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 17,
+    "id": "17",
     "address": "LachieProject-17.jpg",
     "title": "Oh Possum",
     "collection": "Wildlife",
@@ -136,7 +136,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 18,
+    "id": "18",
     "address": "LachieProject-18.jpg",
     "title": "Lorikeet",
     "collection": "Wildlife",
@@ -144,71 +144,71 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 19,
+    "id": "19",
     "address": "LachieProject-19.jpg",
     "title": "Roots System",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Muloorina Station, SA",
     "temporal": "2024-10-01"
   },
   {
-    "id": 20,
+    "id": "20",
     "address": "LachieProject-20.jpg",
     "title": "Mount Mac Panorama",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 21,
+    "id": "21",
     "address": "LachieProject-21.jpg",
     "title": "The Truck",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 22,
+    "id": "22",
     "address": "LachieProject-22.jpg",
     "title": "Carcoar Lake",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 23,
+    "id": "23",
     "address": "LachieProject-23.jpg",
     "title": "Carcoar Wind Farm",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 24,
+    "id": "24",
     "address": "LachieProject-24.jpg",
     "title": "Wind Farm from Mount Macquarie",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 25,
+    "id": "25",
     "address": "LachieProject-25.jpg",
     "title": "Mount Macquarie Pines",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 26,
+    "id": "26",
     "address": "LachieProject-26.jpg",
     "title": "Overgrown",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Mount Macquarie, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 27,
+    "id": "27",
     "address": "LachieProject-27.jpg",
     "title": "Sunset Succulent",
     "collection": "Abstraction",
@@ -216,7 +216,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 28,
+    "id": "28",
     "address": "LachieProject-28.jpg",
     "title": "Lichen on Wood",
     "collection": "Abstraction",
@@ -224,39 +224,39 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 29,
+    "id": "29",
     "address": "LachieProject-29.jpg",
     "title": "Park Bench, Millthorpe",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Millthorpe, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 30,
+    "id": "30",
     "address": "LachieProject-30.jpg",
     "title": "Fortress in the Trees",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Millthorpe, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 31,
+    "id": "31",
     "address": "LachieProject-31.jpg",
     "title": "Spring Flowers, 1",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Eastlakes, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 32,
+    "id": "32",
     "address": "LachieProject-32.jpg",
     "title": "Spring Flowers, 2",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Eastlakes, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 33,
+    "id": "33",
     "address": "LachieProject-33.jpg",
     "title": "Lord of His Domain",
     "collection": "Wildlife",
@@ -264,7 +264,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 34,
+    "id": "34",
     "address": "LachieProject-34.jpg",
     "title": "The Beach House, Maroubra",
     "collection": "Architecture",
@@ -272,39 +272,39 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 35,
+    "id": "35",
     "address": "LachieProject-35.jpg",
     "title": "Tracks",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Maroubra, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 36,
+    "id": "36",
     "address": "LachieProject-36.jpg",
     "title": "Headland Waves",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Maroubra, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 37,
+    "id": "37",
     "address": "LachieProject-37.jpg",
     "title": "Kensington Sunset, 1",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Kensington, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 38,
+    "id": "38",
     "address": "LachieProject-38.jpg",
     "title": "Kensington Sunset. 2",
-    "collection": "Landscape",
+    "collection": "Landscapes",
     "location": "Kensington, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 39,
+    "id": "39",
     "address": "LachieProject-39.jpg",
     "title": "Operatic",
     "collection": "Architecture",
@@ -312,7 +312,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 40,
+    "id": "40",
     "address": "LachieProject-40.jpg",
     "title": "At the Bank, 1",
     "collection": "Millthorpe",
@@ -320,7 +320,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 41,
+    "id": "41",
     "address": "LachieProject-41.jpg",
     "title": "Sydenham Corner",
     "collection": "Architecture",
@@ -328,7 +328,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 42,
+    "id": "42",
     "address": "LachieProject-42.jpg",
     "title": "Pollen Refinery",
     "collection": "Wildlife",
@@ -336,15 +336,15 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 43,
+    "id": "43",
     "address": "LachieProject-43.jpg",
     "title": "Gurgling",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Bruinbun, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 44,
+    "id": "44",
     "address": "LachieProject-44.jpg",
     "title": "The Lookout",
     "collection": "Wildlife",
@@ -352,23 +352,23 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 45,
+    "id": "45",
     "address": "LachieProject-45.jpg",
     "title": "Refiner's Fire",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Bruinbun, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 46,
+    "id": "46",
     "address": "LachieProject-46.jpg",
     "title": "Spring Flowers, 3",
-    "collection": "Nature Close Up",
+    "collection": "Nature in Close Up",
     "location": "Millthorpe, NSW",
     "temporal": "2024-10-01"
   },
   {
-    "id": 47,
+    "id": "47",
     "address": "LachieProject-47.jpg",
     "title": "Back to School",
     "collection": "Millthorpe",
@@ -376,7 +376,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 48,
+    "id": "48",
     "address": "LachieProject-48.jpg",
     "title": "Cellar Door",
     "collection": "Millthorpe",
@@ -384,7 +384,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 49,
+    "id": "49",
     "address": "LachieProject-49.jpg",
     "title": "Overthrown",
     "collection": "Millthorpe",
@@ -392,7 +392,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 50,
+    "id": "50",
     "address": "LachieProject-50.jpg",
     "title": "St John's, Maroubra",
     "collection": "Architecture",
@@ -400,7 +400,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 51,
+    "id": "51",
     "address": "LachieProject-51.jpg",
     "title": "Preening in Private",
     "collection": "Wildlife",
@@ -408,7 +408,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 52,
+    "id": "52",
     "address": "LachieProject-52.jpg",
     "title": "At the Bank, 2",
     "collection": "Millthorpe",
@@ -416,7 +416,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 53,
+    "id": "53",
     "address": "LachieProject-53.jpg",
     "title": "The Kingsford Towers",
     "collection": "Architecture",
@@ -424,7 +424,7 @@
     "temporal": "2024-10-01"
   },
   {
-    "id": 54,
+    "id": "54",
     "address": "LachieProject-54.jpg",
     "title": "Over the Domain",
     "collection": "Wildlife",

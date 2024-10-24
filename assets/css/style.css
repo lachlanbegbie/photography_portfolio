@@ -219,7 +219,7 @@ footer {
 }
 
 .foot-content {
-    width: 60%;
+    width: 50%;
 
     display: flex;
     flex-direction: column;
@@ -236,6 +236,7 @@ footer {
 .foot-rights {
     display: flex;
     justify-content: space-between;
+    /* justify-content: end; */
 
     font-size: 0.7em;
     font-weight: 400;
@@ -536,6 +537,8 @@ footer {
 .collection-details h2 {
     font-size: 3em;
     font-weight: 500;
+
+    text-transform: uppercase;
 }
 
 .collection-details p {
@@ -560,16 +563,54 @@ footer {
     width: fit-content;
 }
 
-/*      */
-/* Blog */
-/*      */
+/*        */
+/* Galley */
+/*        */
 
-.blog {
+.coll-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    text-transform: uppercase;
+
+    margin: 4em 0em 2em 0em;
 }
 
-.blog-container {
-    
+.coll-banner * {
+    width: fit-content;
+}
+
+.coll-banner h1 {
+    padding: 0;
+}
+
+.coll-banner a {
+    font-size: 2em;
+}
+
+.coll-gallery {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    max-width: 100em;
+
+    padding: 1em;
+}
+
+.gall-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+
+    max-width: 100em;
+
+    padding: 2em 0em 5em 0em;
+}
+
+.gall-container img {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 /*       */
