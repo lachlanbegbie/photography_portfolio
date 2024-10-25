@@ -1,7 +1,7 @@
 async function getCollections() {
     // declare a variable for json data path
-    const jsonData = "./assets/data/hughdata.json";
-    const jsonColl = "./assets/data/collections.json";
+    const jsonData = "assets/data/hughdata.json";
+    const jsonColl = "assets/data/collections.json";
 
     try {
         // fetch data and store in variable "imagesData"
