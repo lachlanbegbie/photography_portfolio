@@ -724,3 +724,108 @@ footer {
 .gear-item ul li span {
     padding-left: 0.5em;
 }
+
+
+
+/*       */
+/* Modal */
+/*       */
+
+.hidden {
+    display: none;
+}
+
+.background {
+    background-color: rgb(0, 0, 0, 0.6);
+
+    min-height: 100%;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    z-index: 200;
+}
+
+.modal {
+    color: var(--hb-offwhite);
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 100dvh;
+    /* bottom: 0; */
+
+    z-index: 300;
+
+    overflow-y: scroll;
+}
+
+.modal-content {
+    background-color: var(--hb-darkblue);
+
+    display: block;
+
+    width: 25em;
+    min-height: 100dvh;
+    float: right;
+
+    padding: 2em 3.5em;
+
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.modal-content * {
+    margin-bottom: 1em;
+}
+
+.modal-content h1 {
+    font-size: 3em;
+}
+
+.modal-content .foot-social {
+    justify-content: right;
+    color: var(--hb-lightblue);
+    padding-top: 2em;
+}
+
+.exit {
+    font-size: 4em;
+    color: var(--hb-lightblue);
+}
+
+.exit:hover {
+    cursor: pointer;
+}
+
+@keyframes moveoff {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(100%);}
+}
+
+@keyframes fadeout {
+    0% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+.moveoff {
+    animation: moveoff 0.5s;
+}
+
+.movein {
+    animation: moveoff 0.5s reverse;
+}
+
+.fadeout {
+    animation: fadeout 0.5s;
+}
+
+.fadein {
+    animation: fadeout 0.5s reverse;
+}
+
+.scrollFreeze {
+    overflow: hidden;
+}

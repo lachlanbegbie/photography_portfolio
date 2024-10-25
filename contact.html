@@ -11,15 +11,16 @@
 
         <script src="https://kit.fontawesome.com/852736490e.js" crossorigin="anonymous"></script>
         <script src="/assets/js/homeGallery.js"></script>
+        <script src="assets/js/menu.js"></script>
     </head>
 
-    <body>
+    <body id="body">
         <header class="head bar-head">
         <!-- <header class="head hero-head"> -->
             <div class="navbar">
                 <a href="index.html"><h1 class="logo">HB PHOTO</h1></a>
     
-                <a class="menu-button"><i class="fa-solid fa-bars"></i></a>
+                <a class="menu-button"><i class="fa-solid fa-bars" onclick="openModal()"></i></a>
             </div>
 
             <div class="hero-content">
@@ -67,5 +68,24 @@
                 </div>
             </div>
         </footer>
+
+        <div class="background hidden" id="modal-background" onclick="closeModal()"></div>
+
+        <div class="modal hidden" id="modal">
+            <div class="modal-content" id="modal-content">
+                <i class="exit fa-solid fa-xmark" id="modalExit" onclick="closeModal()"></i>
+
+                <a href="index.html"><h1>Home</h1></a>
+                <a href="about.html"><h1>About</h1></a>
+                <a href="portfolio.html"><h1>Portfolio</h1></a>
+                <a href="contact.html"><h1>Contact</h1></a>
+
+                <div class="foot-social">
+                    <i class="facebook fa-brands fa-facebook"></i>
+                    <i class="instagram  fa-brands fa-instagram"></i>
+                    <i class="linkedin  fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
