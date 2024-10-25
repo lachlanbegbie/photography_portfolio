@@ -732,7 +732,7 @@ footer {
 /*         */
 
 .body-contact {
-    color: var(--hb-darkblue);
+    color: var(--hb-gray);
 
     display: flex;
     flex-direction: column;
