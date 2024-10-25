@@ -449,6 +449,7 @@ footer {
 /*                 */
 /* Secondary Pages */
 /*                 */
+
 .secondary {
     /* padding: 6em; */
 
@@ -723,6 +724,75 @@ footer {
 
 .gear-item ul li span {
     padding-left: 0.5em;
+}
+
+
+/*         */
+/* Contact */
+/*         */
+
+.body-contact {
+    color: var(--hb-darkblue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(/assets/img/images/LachieProject-52.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.body-contact .foot-social {
+    justify-content: center;
+    text-align: center;
+
+    padding: 3em 0em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 50em;
+
+    margin-bottom: 8em;
+}
+
+.contact-form input {
+    color: var(--hb-gray);
+
+    font-size: 1.5em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    height: 2.5em;
+    margin: 0.5em 0em;
+    padding-left: 0.75em;
+    padding-top: 0.3em;
+
+    border: none;
+    border-radius: 0.2em;
+}
+
+.contact-form input:last-of-type {
+    width: 50%;
+    /* height: 1em; */
+    font-size: 1.5em;
+    font-weight: 600;
+
+    margin-top: 2em;
+
+    align-self: center;
+
+    text-transform: uppercase;
+
+    background-color: var(--hb-lightblue);
+
+    overflow-wrap: anywhere;
+}
+
+.contact-form input:last-of-type:hover {
+    cursor: pointer;
 }
 
 
