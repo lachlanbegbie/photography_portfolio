@@ -266,7 +266,7 @@ footer {
     height: 50em;
     width: 100dvw;
 
-    background-image: url(../img/images/LachieProject-31.jpg);
+    background-image: url("../img/images/LachieProject-31.jpeg");
     background-size: cover;
 
     margin-bottom: 0em;
@@ -501,31 +501,31 @@ footer {
 }
 
 .arch {
-    background-image: url("../img/images/LachieProject-34.jpg");
+    background-image: url("../img/images/LachieProject-34.jpeg");
 }
 
 .abst {
-    background-image: url("../img/images/LachieProject-01.jpg");
+    background-image: url("../img/images/LachieProject-01.jpeg");
 }
 
 .natu {
-    background-image: url("../img/images/LachieProject-19.jpg");
+    background-image: url("../img/images/LachieProject-19.jpeg");
 }
 
 .wild {
-    background-image: url("../img/images/LachieProject-33.jpg");
+    background-image: url("../img/images/LachieProject-33.jpeg");
 }
 
 .padd {
-    background-image: url("../img/images/LachieProject-06.jpg");
+    background-image: url("../img/images/LachieProject-06.jpeg");
 }
 
 .mill {
-    background-image: url("../img/images/LachieProject-11.jpg");
+    background-image: url("../img/images/LachieProject-11.jpeg");
 }
 
 .land {
-    background-image: url("../img/images/LachieProject-13.jpg");
+    background-image: url("../img/images/LachieProject-13.jpeg");
 }
 
 .collection-details {
@@ -738,7 +738,7 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    background-image: url("assets/img/images/LachieProject-52.jpg");
+    background-image: url("../img/images/LachieProject-52.jpeg");
     background-size: cover;
     background-position: center;
 }
